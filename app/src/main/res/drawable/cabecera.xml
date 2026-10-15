@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+    <!-- Cielo -->
+    <path
+        android:fillColor="#8EC5F0"
+        android:pathData="M0,0h360v200h-360z" />
+    <!-- Sol -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M290,45m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0" />
+    <!-- Montaña trasera -->
+    <path
+        android:fillColor="#5C7A99"
+        android:pathData="M120,200L215,55L330,200z" />
+    <!-- Nieve montaña trasera -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M215,55L238,88L224,82L215,96L205,82L192,88z" />
+    <!-- Montaña delantera -->
+    <path
+        android:fillColor="#3E5C76"
+        android:pathData="M-20,200L100,85L240,200z" />
+    <!-- Nieve montaña delantera -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,85L123,115L110,110L100,124L90,110L77,115z" />
+</vector>
